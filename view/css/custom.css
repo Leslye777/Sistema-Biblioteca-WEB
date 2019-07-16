@@ -1,0 +1,78 @@
+a img{
+	border:none;
+}
+
+form{
+  width:100%;
+  text-align:center;
+}
+
+form p{
+  padding:12px;
+}
+
+form p label{
+  color:#333;
+  font-weight:900;
+}
+
+form.consultas input{
+  padding:6px;
+  border:1px solid #ccc;
+  width:300px;
+}
+
+table{
+  width:100%;
+}
+
+table thead th{
+  background-color:#bd1e2c;
+  padding:6px;
+  color:#fff;
+  text-align:center;
+  font-size:14px;
+}
+
+table thead th.header{
+  cursor:pointer;
+}
+
+table tbody td{
+  padding:6px;
+  text-align:center;
+  color:#333;
+}
+
+table tbody tr:hover td{
+  background-color:#a9d0f5;
+}
+
+table tbody tr.selected td{
+  background-color:#a9f5a9!important;
+}
+#pager{
+  width: 90%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+.pagedisplay{
+	width:40px;
+	text-align:center;
+	border:none !important;
+	font-weight:900;
+}
+
+#pager span{
+	font-weight:900;
+	display:inline-block;
+	margin:0 0 0 20px;
+	color:#666;
+	float:right;
+}
+
+#pager form{
+	text-align:left;
+
+	width:100%;
+}
